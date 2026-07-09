@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;600;700&family=Sarabun:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <p class="hero-tag">Creative</p>
+                <h1 class="hero-title">PORTFOLIO</h1>
+                <p class="hero-name">Sirawit samaksamarn</p>
+            </div>
+            <div class="hero-image">
+                <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=portrait%20of%20a%20creative%20professional%20woman%20in%20white%20top%20with%20black%20hat,%20studio%20portrait,%20high%20quality&image_size=square" alt="Portfolio Hero">
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section class="about-section">
+            <div class="about-content">
+                <h2 class="section-title">เกี่ยวกับฉัน</h2>
+            </div>
+            <div class="about-details">
+                <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=professional%20portrait%20of%20a%20woman%20in%20white%20off%20shoulder%20top,%20clean%20background&image_size=square" alt="Profile">
+                <div class="about-text">
+                    <p class="about-name">Joanne ALEXANDER</p>
+                    <p class="about-description">I'm a creative professional passionate about creating exceptional digital experiences that combine usability, aesthetics, and meaningful interactions.</p>
+                    <div class="about-skills">
+                        <p>Core Expertise:</p>
+                        <ul>
+                            <li>Web Development</li>
+                            <li>UI/UX Design</li>
+                            <li>Brand & Visual Identity</li>
+                            <li>Digital Marketing</li>
+                            <li>User Research</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experiences Section -->
+        <section class="exp-section">
+            <div class="exp-content">
+                <h3 class="exp-subtitle">My</h3>
+                <h2 class="section-title exp-title">EXPERIENCES</h2>
+                <p class="exp-description">I create engaging digital experiences that combine usability, accessibility, and stunning aesthetics to deliver exceptional user experiences.</p>
+                <ul class="exp-list">
+                    <li>50+ Digital Experiences Designed</li>
+                    <li>100+ Happy Clients</li>
+                    <li>10+ Design Awards Won</li>
+                    <li>Worked with Fortune 500 Companies</li>
+                    <li>User-Centered Design Approach</li>
+                </ul>
+            </div>
+            <div class="exp-image">
+                <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=professional%20woman%20in%20modern%20office%20setting,%20creative%20workspace&image_size=square" alt="Experiences">
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="edu-section">
+            <div class="edu-content">
+                <h3 class="edu-subtitle">My</h3>
+                <h2 class="section-title edu-title">EDUCATION</h2>
+            </div>
+            <div class="edu-image">
+                <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=professional%20woman%20tying%20her%20hair,%20confident%20pose,%20red%20background&image_size=square" alt="Education">
+            </div>
+            <div class="edu-details">
+                <div class="edu-item">
+                    <span class="edu-year">2021-2025</span>
+                    <p class="edu-degree">Bachelor of Information Systems</p>
+                    <p class="edu-school">University of Technology, Sydney</p>
+                </div>
+                <div class="edu-item">
+                    <span class="edu-year">2022</span>
+                    <p class="edu-degree">UX Design Professional Certificate</p>
+                    <p class="edu-school">Google</p>
+                </div>
+                <div class="edu-item">
+                    <span class="edu-year">2021</span>
+                    <p class="edu-degree">High School Diploma</p>
+                    <p class="edu-school">Sydney High School</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section">
+            <div class="projects-header">
+                <h3 class="projects-subtitle">Sample</h3>
+                <h2 class="section-title projects-title">PROJECTS</h2>
+            </div>
+            <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=design%20workspace%20with%20sketches%20and%20color%20palettes,%20creative%20tools&image_size=square" alt="Project Thumbnail" class="projects-thumbnail">
+        </section>
+
+        <!-- First Project -->
+        <section class="project-detail">
+            <div class="project-info">
+                <h3 class="project-subtitle">First</h3>
+                <h2 class="project-title">PROJECT</h2>
+                <p class="project-description">My first project marked the beginning of my design journey, where I explored creativity, problem-solving design, and digital innovation.</p>
+            </div>
+            <div class="project-media" onclick="openVideoModal('https://www.w3schools.com/html/mov_bbb.mp4')">
+                <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=design%20studio%20with%20color%20swatches,%20creative%20team%20working%20on%20project,%20mood%20board&image_size=square" alt="First Project">
+                <div class="play-overlay">
+                    <div class="play-icon">▶</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Second Project -->
+        <section class="project-detail reverse">
+            <div class="project-gallery">
+                <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=digital%20design%20workspace%20with%20computer%20and%20color%20palettes&image_size=square" alt="Project 1">
+                <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=designer%20working%20on%20laptop%20with%20creative%20software%20open&image_size=square" alt="Project 2">
+                <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=interior%20design%20space%20with%20modern%20furniture&image_size=square" alt="Project 3">
+            </div>
+            <div class="project-info">
+                <h3 class="project-subtitle">Second</h3>
+                <h2 class="project-title">PROJECT</h2>
+                <p class="project-description">A collaborative project that introduced me to the world of team collaboration, innovation, and creative thinking.</p>
+            </div>
+        </section>
+
+        <!-- Third Project -->
+        <section class="project-detail">
+            <div class="project-gallery">
+                <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=architectural%20design%20concept%20drawings%20and%20models&image_size=square" alt="Project 4">
+                <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=modern%20office%20interior%20design%20concept&image_size=square" alt="Project 5">
+            </div>
+            <div class="project-info">
+                <h3 class="project-subtitle">Third</h3>
+                <h2 class="project-title">PROJECT</h2>
+                <p class="project-description">The project that introduced me to user experience design and transformed my approach to creative work.</p>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section">
+            <h3 class="testimonials-subtitle">Our</h3>
+            <h2 class="section-title testimonials-title">CLIENT SAY</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-name">Sarah Mitchell</p>
+                    <p class="testimonial-role">CEO, TechCorp</p>
+                    <p class="testimonial-text">Professional, reliable, and highly creative. Magical experience working with.</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-name">Michael Chen</p>
+                    <p class="testimonial-role">Founder, DesignHub</p>
+                    <p class="testimonial-text">A creative professional who consistently delivers high-quality work.</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-name">David Wilson</p>
+                    <p class="testimonial-role">Director, InnovateCo</p>
+                    <p class="testimonial-text">Amazing talent! Improved significantly after working together.</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-name">Sophia Lee</p>
+                    <p class="testimonial-role">Manager, CreativeStudio</p>
+                    <p class="testimonial-text">Reliable, efficient, and passionate about creating value for her clients.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <div class="contact-content">
+                <h3 class="contact-subtitle">Let's Connect</h3>
+                <h2 class="contact-title">THANK YOU</h2>
+            </div>
+            <div class="contact-image">
+                <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=professional%20woman%20in%20white%20off%20shoulder%20top%20smiling,%20friendly%20portrait&image_size=square" alt="Contact">
+                <div class="contact-info">
+                    <p><a href="tel:+14165551234">+1 416-555-1234</a></p>
+                    <p><a href="mailto:hello@joanneportfolio.com">hello@joanneportfolio.com</a></p>
+                    <p class="contact-note">Let's create something meaningful together.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Video Modal -->
+    <div id="videoModal" class="modal" onclick="closeVideoModal()">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <span class="close-btn" onclick="closeVideoModal()">×</span>
+            <video id="modalVideo" controls>
+                <source src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
